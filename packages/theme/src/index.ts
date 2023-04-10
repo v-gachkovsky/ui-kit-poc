@@ -1,0 +1,1 @@
+export { getThemeProvider } from './provider';

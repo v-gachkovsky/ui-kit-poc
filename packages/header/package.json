@@ -1,0 +1,22 @@
+{
+  "name": "@ui-kit-nx/header",
+  "version": "0.0.2",
+  "description": "UI Kit: Header",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/typings/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Volodymyr Hachkovsky <v.hachkovskyi@chem-space.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "styled-components": "^5"
+  }
+}
